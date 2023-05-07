@@ -1,0 +1,41 @@
+.banner_head {
+  /* display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column; */
+  /* text-align: center; */
+  padding-top: 100px;
+  padding-left: 50px;
+  width: 100%;
+}
+.banner_head h1 {
+  color: #1e77ff;
+  font-weight: 700;
+}
+.banner_head h4 {
+  padding-top: 20px;
+}
+.manula_btn {
+  margin-top: 30px;
+}
+.manula_btn button {
+  padding: 10px 20px;
+
+  border-radius: 5px;
+  border: none;
+  background-color: #1e77ff;
+  color: white;
+}
+.btn-2 {
+  margin-left: 10px;
+}
+
+@media screen and (max-width: 400px) {
+  .banner_img {
+    width: 380px;
+    height: 300px;
+  }
+  .manula_btn button {
+    margin-bottom: 30px;
+  }
+}
